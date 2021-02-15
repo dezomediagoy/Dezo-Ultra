@@ -1,0 +1,279 @@
+
+.header{
+    width: 100%;
+    background: url(../Img/index.html.jpg) no-repeat center center / cover;
+}
+
+.nav_menu{
+    width: 100%;
+    height: 70px;
+    background: #5a5656b6;
+}
+
+.header_nav-menu-img{
+    width: 150px;
+    height: 65px;
+}
+
+.header_nav-text{
+    font-size: 14px;
+    color: white;
+    padding-top: 48px;
+}
+
+.header_vidio-o{
+    width: 100%;
+    padding: 5px 40px 90px 40px;
+    height: 800px;
+}
+
+.vidio_texts-titles{
+    width: 100%;
+    height: 150px;
+    background: rgba(82, 74, 74, 0.719);
+}
+
+.vidios_text{
+    padding-top: 17px;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px !important;
+}
+
+.vidios_title{
+    padding-top: 0px;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.kino_rasm{
+    width: 100%;
+}
+
+.kino_enter{
+    padding-top: 45px;
+}
+
+h1{
+    font-size: 48px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kino_title{
+    font-size: 24px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 24px;
+}
+
+.kino_link{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    padding: 13px 18px 13px 18px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.kino_link:hover{
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+    border: 1px white solid;
+    background: black;
+}
+
+/***************************MEDIA START***************************/
+
+@media(max-width: 2500px){
+    .nav_menu {
+        width: 100%;
+        height: 100px;
+        background: #5a5656b6;
+    }
+    .header_nav-menu-img {
+        width: 295px;
+        height: 112px;
+    }
+    .header_vidio-o {
+        width: 100%;
+        padding: 43px 400px 43px 400px;
+    }
+    .vidios_text {
+        padding-top: 17px;
+        font-size: 33px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .vidios_title {
+        padding-top: 0px;
+        font-size: 23px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .vidio_texts-titles {
+        width: 100%;
+        height: 206px;
+        /* padding: 20px 20px; */
+        background: rgba(82, 74, 74, 0.719);
+    }
+    .kino_rasm {
+        width: 100%;
+        border: 7px solid white;
+    }
+    h1 {
+        font-size: 48px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 25px;
+    }    
+    *, *::before, *::after {
+        box-sizing: border-box;
+        padding-bottom: 16px;
+    }
+    .kino_title {
+        font-size: 24px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 24px;
+        display: none;
+    }
+    .kino_link {
+        color: white;
+        text-decoration: none;
+        border: 1px white solid;
+        padding: 13px 18px 13px 18px;
+        border-radius: 15px;
+        transition: 0.5s;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+@media(max-width: 593px) {
+    .nav_menu {
+        width: 103%;
+        height: 54px;
+        background: #5a5656b6;
+    }
+
+    .header_nav-menu-img {
+        width: 181px;
+        height: 69px;
+    }
+
+    .header_vidio-o {
+        width: 100%;
+        padding: 25px 10px 25px 10px;
+    }
+
+    .vidio_texts-titles {
+        width: 100%;
+        height: 118px;
+        /* padding: 20px 20px; */
+        background: rgba(82, 74, 74, 0.719);
+    }
+
+    .vidios_text {
+        padding-top: 9px;
+        font-size: 23px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .header_nav-text {
+        font-size: 14px;
+        color: white;
+        padding-top: 48px;
+        display: none;
+    }
+    h1 {
+        font-size: 26px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 25px;
+        padding-top: 15px;
+    }
+    .kino_link {
+        color: white;
+        text-decoration: none;
+        border: 1px white solid;
+        padding: 13px 18px 13px 18px;
+        border-radius: 15px;
+        transition: 0.5s;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .vidios_title {
+        padding-top: 0px;
+        font-size: 17px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media(max-width: 350px){
+    .nav_menu {
+        width: 108%;
+        height: 54px;
+        background: #5a5656b6;
+    }
+    .header_nav-menu-img {
+        width: 140px;
+        height: 61px;
+        padding-top: 10px;
+    }
+    .header_vidio-o {
+        width: 100%;
+        padding: 5px 5px 5px 5px;
+    }
+    .vidio_texts-titles {
+        width: 100%;
+        height: 118px;
+        /* padding: 20px 20px; */
+        background: rgba(82, 74, 74, 0.719);
+    }
+    .vidios_text {
+        padding-top: 9px;
+        font-size: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .vidios_title {
+        padding-top: 0px;
+        font-size: 15px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .kino_rasm {
+        width: 100%;
+         border: none; 
+        padding: 10px 10px;
+    }
+    h1 {
+        font-size: 19px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-bottom: 25px;
+        padding-top: 5px;
+    }
+    .kino_link {
+        color: white;
+        text-decoration: none;
+        border: 2px white solid;
+        padding: 9px 7px 9px 7px;
+        border-radius: 12px;
+        transition: 0.5s;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .header {
+        width: 104%;
+        background: url(../Img/index.html.jpg) no-repeat center center / cover;
+    }
+}
